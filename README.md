@@ -1,4 +1,4 @@
 Título del proyecto: Mi Portfolio - Sergio Ovejero
-Descripción breve: Portfolio para la actividad evaluable de 1º DAW
+Descripción breve: Portfolio para la actividad evaluable de 1º DAW. Asignatura: Proyecto Intermodular.
 Enlace a la página publicada: https://sergioovejerodaw.github.io/mi-portfolio/
-Tecnologías utilizadas: HTML, CSS, GitHub Pages.
+Tecnologías utilizadas: HTML, CSS, JavaScript, GitHub Pages.
