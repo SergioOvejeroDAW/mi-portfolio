@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi portfolio - Sergio Ovejero</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="icon" type="image/png" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/navbar.js"></script>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1 class="titulo">Mi portfolio - Sergio Ovejero</h1>
+      <nav class="topnav" id="myTopnav">
+        <a href="#datos">Sobre mi</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </header>
+    <section id="datos" class="seccion">
+      <h3>Sobre mi</h3>
+      <div class="about">
+        <div class="montaje">
+          <img src="./img/foto.jpg" alt="Foto de Sergio Ovejero" class="imgPerfil">
+          <p class="capa">Sergio Ovejero Ruiz</p>
+        </div>
+        <div class="descrip-about">
+          <p>Soy <strong>Sergio Ovejero</strong>, un desarrollador web apasionado por crear experiencias digitales atractivas y funcionales. Tengo experiencia en HTML, CSS y JavaScript, y siempre estoy buscando aprender nuevas tecnologías y mejorar mis habilidades.</p>
+          <p>Estudio Desarrollo de Aplicaciones Web en el IES Camp de Morvedre.</p>
+          <p>Mi objetivo profesional es trabajar como programador ya sea de Frontend o de Backend.</p>
+        </div>
+      </div>
+    </section>
+    <section id="proyectos" class="seccion">
+      <h3>Proyectos</h3>
+      <ul>
+        <li>
+          <a href="https://www.arcmoto.com" target="_blank" style="font-style: italic; color: blue; font-weight:700;">www.arcmoto.com</a>
+          <p>Página web de una tienda de ropa de moto a medida - Creada con Astro.buid, Tailwind y JavaScript.</p>
+        </li>
+        <li>
+          <a href="https://arc-tienda.vercel.app/" target="_blank" style="font-style: italic; color: blue; font-weight:700;">arc-tienda.vercel.app</a>
+          <p>Página web para comercio. Gestión de ventas, gastos, facturación y creación de tickets. Con autenticación. - Creada con React, Next.js, Tailwind, Supabase (base de datos postgresql) y JavaScript.</p>
+        </li>
+        <li>
+          <a href="https://www.lazafirina.com/" target="_blank" style="font-style: italic; color: blue; font-weight:700;">www.lazafirina.com</a>
+          <p>Página web de una compañia de teatro española - Creada con Astro.buid, Tailwind y JavaScript.</p>
+        </li>
+        <li>
+          <a href="https://www.veterinariasegorbe.com" target="_blank" style="font-style: italic; color: blue; font-weight:700;">www.veterinariasegorbe.com</a>
+          <p>Página web para una clínica veterinaria - Creada con Astro.buid, Tailwind y JavaScript.</p>
+        </li>
+      </ul>
+    </section>
+    <section id="habilidades" class="seccion">
+      <h3>Habilidades</h3>
+      <div>
+        <label for="htmlMeter">HTML</label><br>
+        <meter id="htmlMeter" value="85" min="0" max="100" class="meter"></meter>
+      </div>
+      <div>
+        <label for="cssMeter">CSS</label><br>
+        <meter id="cssMeter" value="75" min="0" max="100" class="meter" /></meter>
+      </div>
+      <div>
+        <label for="jsMeter">JavaScript</label><br>
+        <meter id="jsMeter" value="65" min="0" max="100" class="meter" /></meter>        
+      </div>
+      <div>
+        <label for="jsMeter">React</label><br>
+        <meter id="jsMeter" value="50" min="0" max="100" class="meter" /></meter>        
+      </div>
+      <div>
+        <label for="jsMeter">Vue.js</label><br>
+        <meter id="jsMeter" value="25" min="0" max="100" class="meter" /></meter>        
+      </div>
+    </section>
+    <section id="contacto" class="seccion">
+      <h3>Contacto</h3>
+      <div class="about">
+        <div class="montaje">
+          <img src="./img/foto.jpg" alt="Foto de Sergio Ovejero" class="imgPerfil">
+          <p class="capa">Sergio Ovejero Ruiz</p>
+        </div>
+        <div>
+          <div class="info-datos">
+            <i class="fa-solid fa-user" style="color: blue;"></i>
+            <p>Sergio Ovejero Ruiz</p>
+          </div>
+          <div class="info-datos">
+            <i class="fa-solid fa-house" style="color: blue;"></i>       
+            <p>Segorbe (Castellón)</p>
+          </div>
+          <div class="info-datos">
+            <i class="fa-regular fa-envelope" style="color: blue;"></i>
+            <a href="mailto:ser.ove@hotmail.com">ser.ove@hotmail.com</a>
+          </div>
+          <div class="info-datos">
+            <i class="fa-solid fa-phone" style="color: blue;"></i>
+            <a href="tel:+34689615901">+34 689615901</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <a href="https://www.github.com/Ove86" target="_blank">
+      <i class="fa-brands fa-github"></i>
+      Github
+    </a>
+    <p>&copy; Sergio Ovejero Ruiz | 2025</p>
+  </footer>
+   
+</body>
+</html>
